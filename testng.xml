@@ -1,9 +1,23 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="SauceDemo Smoke Suite">
+
     <test name="Login Smoke Tests">
         <classes>
             <class name="com.saucedemo.automation.tests.smoke.LoginSmokeTest"/>
             <class name="com.saucedemo.automation.tests.smoke.LoginNegativeSmokeTest"/>
         </classes>
     </test>
+
+    <test name="Inventory Smoke Tests">
+        <classes>
+            <class name="com.saucedemo.automation.tests.smoke.InventorySmokeTest"/>
+        </classes>
+    </test>
+
+    <test name="Cart Smoke Tests">
+        <classes>
+            <class name="com.saucedemo.automation.tests.smoke.CartSmokeTest"/>
+        </classes>
+    </test>
+
 </suite>
